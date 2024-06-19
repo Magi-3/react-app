@@ -55,7 +55,7 @@ export default function CreatePost() {
       const body = `{"image": "${base64Image}", "title": "${title}", "bodyText": "${content}"}`;
       console.log(body + "adada");
 
-      const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/post`, {
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post`, {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'

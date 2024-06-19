@@ -18,7 +18,7 @@ const RecipeListScreen = () => {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/recipe');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe');
         if (!response.ok) {
           throw new Error('Failed to fetch recipes');
         }

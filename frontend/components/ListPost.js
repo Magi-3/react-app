@@ -16,7 +16,7 @@ const ListPost = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/post');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post');
         if (!response) {
           throw new Error('Failed to fetch posts');
         }

@@ -17,7 +17,7 @@ const DetailReceita = () => {
   useEffect(() => {
     const fetchRecipeDetails = async () => {
       try {
-        const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/recipe/${id}`);
+        const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe/${id}`);
         console.log(response.data);
 
         if (!response) {

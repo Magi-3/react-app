@@ -14,6 +14,7 @@ import PostDetails from "./components/PostDetails";
 import DetailReceita from "./components/DetailReceita"
 import CreatePost from "./components/CreatePost";
 import DetailPost from "./components/DetailPost"
+import Perfil from "./components/Perfil"
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -45,19 +46,13 @@ export const Layout = () => {
               <Stack.Screen name="DetailReceita" component={DetailReceita}/>
               <Stack.Screen name="CreatePost" component={CreatePost}/>
               <Stack.Screen name="DetailPost" component={DetailPost}/>
+              <Stack.Screen name="Perfil" component={Perfil}/>
+
             </>
             ):(
             <>
-                          <Stack.Screen name="Home" component={Home}/>
-              <Stack.Screen name="Imc" component={Imc}/>
-              <Stack.Screen name="Exercicios" component={Exercicios}/>
-              <Stack.Screen name="CreateRecipe" component={CreateRecipe}/>
-              <Stack.Screen name="ListRecipe" component={ListRecipe}/>
-              <Stack.Screen name="ListPost" component={ListPost}/>
-              <Stack.Screen name="PostDetails" component={ListPost}/>
-              <Stack.Screen name="DetailReceita" component={DetailReceita}/>
-              <Stack.Screen name="CreatePost" component={CreatePost}/>
-              <Stack.Screen name="DetailPost" component={DetailPost}/>
+                          <Stack.Screen name="Login" component={Login}/>
+              <Stack.Screen name="Cadastro" component={Cadastro}/>
 
              </>
               )}

@@ -72,7 +72,7 @@ export default function CreateRecipe() {
 
       const body = `{"image": "${base64Image}", "title": "${title}", "bodyText": "${bodyText}", "calories": "${calories}"}`;
 
-      const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/recipe`, {
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe`, {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'

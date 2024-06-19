@@ -12,7 +12,7 @@ const Footer = () => {
     const { objeto } = authState;
     const { onLogout } = useAuth();
 
-    const [isContentCreator, setIsContentCreator] = useState(false);
+    const [isContentCreator, setIsContentCreator] = useState(true);
 
     useEffect(() => {
         const checkUserType = async () => {
